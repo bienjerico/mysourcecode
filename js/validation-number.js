@@ -1,0 +1,17 @@
+function validate_number(value) 
+{
+        if (value.length == 0) {
+            return false;
+        }
+
+        var intValue = parseInt(value);
+        if (intValue == Number.NaN) {
+            return false;
+        }
+
+        if (intValue <= 0)
+        {
+            return false;
+        }
+        return true;
+}
