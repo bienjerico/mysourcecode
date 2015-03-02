@@ -21,7 +21,7 @@ use Facebook\GraphObject;
 use Facebook\GraphSessionInfo;
 
 // init app with app id (APPID) and secret (SECRET)
-FacebookSession::setDefaultApplication('314430672099879', '65e598f97cea5463b2be4fb163854038');
+FacebookSession::setDefaultApplication('234524523452452', '65e598f97c2343524523452342ea5463b2be4fb163854038');
 
 $helper = new FacebookRedirectLoginHelper('http://xx.xx.xx.xx/fb');
 
