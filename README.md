@@ -8,10 +8,8 @@ PHP
  - Convert Time to Decimal
  - Convert Decimal to Time
  - Generate/Compute Total hours
-
- 	/curl
- 		- JSON post to URL
- 		- XML post to URL
+ - curl JSON post to URL
+ - curl XML post to URL
  
 Javascript
 
