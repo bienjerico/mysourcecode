@@ -11,6 +11,7 @@ PHP
  - curl JSON post to URL
  - curl XML post to URL
  - Setup PHP port
+ - Facebook Login API 4-4.0
  
 Javascript
 
