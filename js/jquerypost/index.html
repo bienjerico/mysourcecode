@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jquery Post Resquest</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</head>
+
+<body>
+	<button type="button" id="view-btn">View</button>
+
+	<input type="text" id="firstname" value="Bien Jerico"/>
+	<input type="text" id="lastname" value="Cueto"/>
+
+	<div id="result"></div>
+
+	<script>
+		$("#view-btn").click(function(){
+			var firstname 	= $("#firstname"),
+				lastname 	= $("#lastname"),
+				data 		=	{};
+
+				data['firstname'] 	= firstname.val();
+				data['lastname'] 	= lastname.val();
+
+				$.post("result.php",data,function(result){
+						$("#result").html(result);
+				});
+
+
+		});
+	</script>
+</body>
+</html>
